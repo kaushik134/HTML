@@ -12,16 +12,60 @@
         }
         div{
             border: 10px solid black;
-            width: 300;
-            padding: 50px;
-            margin: 20px;
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            margin-left: 450px;
+            margin-top: 70px;
+            border-radius: 10px;
+        }
+        h1{
             text-align: center;
+        }
+        label{
+            border: 1px solid transparent;
+            text-align: center;
+            margin-left: 20px;
+        }
+        input{
+            border: 1px solid ;
+            text-align: center;
+        }
+        input:hover{
+            color: red;
+        }
+        button{
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 120px;
+            background-color: rgb(232, 156, 57);
+            color: rgb(192, 48, 48);
+            border-radius: 50px;
+            font-size: 18px;
+            border: 2px solid transparent;
+        }
+        button:hover{
+            color: rebeccapurple;
+            background-color: transparent;
+        }
+        p{
+            margin-left:92px;
+            color: gray;
+        }
+        p:hover{
+            color: blueviolet;
         }
     </style>
 </head>
 <body>
     <div>
-
+        <h1>Login Form</h1><br>
+        <label for="">User Name :</label>
+        <input type="name" placeholder="Enter Your Username"><br><br><br>
+        <label for="">Password :</label>
+        <input type="password" placeholder="Enter Your Password"><br><br><br>
+        <button type="submit">Login</button>
+        <p>Forget Password</p>
     </div>
 </body>
 </html>
